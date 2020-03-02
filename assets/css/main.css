@@ -1,0 +1,23 @@
+a {
+  color: red;
+}
+
+#bio {
+  background-color: lightgray;
+}
+
+.bio-box {
+  border: 1px solid black;
+}
+
+.bio-box a {
+  color: green;
+}
+
+.special-box {
+  background-color: azure;
+}
+
+#special-link {
+  color: orange;
+}
