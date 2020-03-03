@@ -1,23 +1,47 @@
+/* GLABAL STYLES */
+html {
+}
+body {
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fafafa;
+}
+nav {
+  text-align: center;
+  display: block;
+}
+main {
+}
 a {
-  color: red;
+  text-decoration: none;
+}
+footer {
 }
 
-#bio {
-  background-color: lightgray;
-}
-
-.bio-box {
+/* BOX STYLES */
+.box {
   border: 1px solid black;
 }
 
-.bio-box a {
-  color: green;
+.box-a {
 }
 
-.special-box {
-  background-color: azure;
+.box-b {
 }
 
-#special-link {
-  color: orange;
+.box-c {
+}
+
+/* SOCIAL LINK STYLES */
+.social-link {
+  color: red;
+}
+
+/* TEXT STYLES */
+.large-text {
+  margin-bottom: 50px;
+  font-style: italic;
+  font-size: 22px;
+  text-align: center;
 }
