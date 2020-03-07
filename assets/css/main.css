@@ -1,47 +1,66 @@
 /* GLABAL STYLES */
-html {
-}
+html,
 body {
-  width: 500px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+  background-color: #faebd7;
+  font-size: 62.5%;
 }
 nav {
-  text-align: center;
-  display: block;
 }
 main {
 }
 a {
+  color: #a43bf9;
   text-decoration: none;
 }
+
 footer {
 }
 
 /* BOX STYLES */
 .box {
-  border: 1px solid black;
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
 }
 
-.box-a {
+/* LANDING STYLES */
+.landing-box {
+  background-color: #c7dbfc;
 }
 
-.box-b {
+.landing-box-copy {
+  margin-top: 0;
+  font-size: 7vw;
 }
 
-.box-c {
+/* SERVICES STYLES */
+.services-box {
 }
+
+/* PORTFOLIO STYLES */
+.portfolio-box {
+}
+
+/* TESTIMONIALS STYLES */
+.testimonials-box {
+}
+/* END OF BOX STYLES */
 
 /* SOCIAL LINK STYLES */
 .social-link {
-  color: red;
+  background: rgba(150, 150, 150, 0.5);
+  color: rgb(0, 0, 255);
 }
 
 /* TEXT STYLES */
 .large-text {
-  margin-bottom: 50px;
   font-style: italic;
-  font-size: 22px;
+  font-size: 1.5em;
   text-align: center;
+  margin: 1em;
 }
+
+/* BLOG STYLES */
