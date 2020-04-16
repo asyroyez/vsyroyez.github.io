@@ -1,0 +1,5 @@
+Developed by Andrey Syroyezhkin.
+
+Up arrow icon (chevron-up.svg) made by Dave Gandy: https://www.flaticon.com/authors/dave-gandy
+
+Logo icon (writer.svg) made by Smashicons: https://www.flaticon.com/authors/smashicons
