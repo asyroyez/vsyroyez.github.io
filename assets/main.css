@@ -1,0 +1,25 @@
+body {
+  font-size: 62.5%;
+  font-family: helvetica, arial, sans-serif;
+  line-height: 1.4;
+}
+
+main {
+  font-size: 1.8em;
+}
+
+a {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+hr {
+  display: none;
+}
+
+.nav-container {
+  display: grid;
+  background-color: black;
+  color: white;
+  column-gap: 1em;
+}
