@@ -2,24 +2,60 @@ body {
   font-size: 62.5%;
   font-family: helvetica, arial, sans-serif;
   line-height: 1.4;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 95% 5%;
+  grid-template-areas:
+    'h m m m m m'
+    'f f f f f f';
+  /* grid-auto-flow: dense; */
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  background-color: teal;
+  grid-area: h;
+}
+
+nav {
+  color: white;
 }
 
 main {
-  font-size: 1.8em;
+  background-color: gray;
+  grid-area: m;
 }
 
 a {
   text-decoration: none;
-  color: #0000ff;
 }
 
 hr {
   display: none;
 }
 
-.nav-container {
-  display: grid;
-  background-color: black;
-  color: white;
-  column-gap: 1em;
+footer {
+  background-color: rgb(121, 214, 116);
+  grid-area: f;
 }
+
+.box {
+}
+
+.services-wrapper {
+  background-color: tomato;
+}
+
+.service-list {
+  list-style: none;
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5em; */
+}
+/*
+relative units
+vw = view width
+vh = view height
+em = general, 1em = 1px
+*/
