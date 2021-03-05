@@ -130,3 +130,11 @@ i {
 a img {
   border: none;
 }
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  display: none;
+}
