@@ -3,48 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/assets/reset.css" />
     <link rel="stylesheet" href="/assets/main.css" />
     <title>Home | Vivian Syroyezhkina</title>
   </head>
   <body>
     <header>
+      <!-- logo -->
       <nav class="nav-wrapper">
         <ul class="nav-list">
-          <li class="nav-item"><a href="/">Home</a></li>
-          <li class="nav-item"><a href="/services.html">Services</a></li>
-          <li class="nav-item">
-            <a href="/portfolio.html">Portfolio & Testimonials</a>
+          <li><a class="nav-item" href="/">Home</a></li>
+          <li><a class="nav-item" href="/services.html">Services</a></li>
+          <li><a class="nav-item" href="/portfolio.html">Portfolio</a></li>
+          <li>
+            <a class="nav-item" href="/portfoilio.html#testimonials"
+              >Testimonials</a
+            >
           </li>
-          <li class="nav-item"><a href="/blog.html">Blog</a></li>
+          <li><a class="nav-item" href="/contact.html">Contact</a></li>
+          <li><a class="nav-item" href="/blog.html">Blog</a></li>
         </ul>
       </nav>
     </header>
-    <aside>
-      <!-- logo -->
-      <div class="contact-wrapper">
-        <h5>Contact</h5>
-        <h6>EMAIL</h6>
-      </div>
-      <hr />
-      <div class="newsletter-wrapper">
-        <h5>Subscribe To My Newsletter:</h5>
-      </div>
-    </aside>
     <main>
       <section class="landing-wrapper">
-        <h1 class="landing-content text-big">Hi, I'm Vivian.</h1>
-        <h2 class="landing-content text-medium">
-          & I help authors publish their work.
+        <h1 class="landing-main-text">Hi, I'm Vivian.</h1>
+        <h2 class="landing-sub-text">
+          I help future authors:
+          <ul>
+            <li><p class="landing-text">find their voice</p></li>
+            <li><p class="landing-text">edit their work</p></li>
+            <li><p class="landing-text">publish a great book</p></li>
+          </ul>
         </h2>
       </section>
       <hr />
       <section class="services-wrapper">
         <h3>Services</h3>
-        <ul class="service-list">
-          <li class="service-item">
+        <ul>
+          <li class="services-item">
             <h4>Editing</h4>
-            <p class="service-text">
+            <p class="services-text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum
               similique, culpa tempora assumenda quam dolore quibusdam
               reprehenderit harum accusamus dolores inventore fugiat consequatur
@@ -54,9 +58,9 @@
               consectetur, quam est repudiandae.
             </p>
           </li>
-          <li class="service-item">
+          <li class="services-item">
             <h4>Publishing</h4>
-            <p class="service-text">
+            <p class="services-text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut
               soluta aliquam deleniti ab, voluptatum quo rerum ex repellendus
               expedita nemo voluptatem culpa illo accusantium vitae quas
@@ -66,9 +70,9 @@
               numquam.
             </p>
           </li>
-          <li class="service-item">
+          <li class="services-item">
             <h4>Ghostwriting</h4>
-            <p class="service-text">
+            <p class="services-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
               distinctio, eveniet ullam cupiditate dolores vitae esse ex libero
               odio saepe harum ipsam omnis. Totam soluta suscipit nam facere
@@ -88,6 +92,10 @@
           <li class="social-item">Discord</li>
           <li class="social-item">LinkedIn</li>
         </ul>
+      </div>
+      <div class="newsletter-wrapper">
+        <p class="newsletter-text">Subscribe To My Newsletter:</p>
+        <button class="newsletter-button">Subscribe</button>
       </div>
     </footer>
   </body>
